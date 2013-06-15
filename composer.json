@@ -7,10 +7,10 @@
         {
             "name": "nanang suryadi",
             "email": "worksuryakencana@gmail.com",
-            "homepage": ""
         }
     ],
     "require": {
+       "slim/mvc": "dev-master",
         "prado/sqlmap": "dev-master"
     },
     "autoload": {
