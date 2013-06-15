@@ -1,0 +1,24 @@
+{
+    "name": "ziask",
+    "type": "framework",
+    "description": "ziask Framework, a PHP framework",
+    "keywords": ["microframework","rest","router"],
+    "authors": [
+        {
+            "name": "nanang suryadi",
+            "email": "worksuryakencana@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "prado/sqlmap": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "zi/cores",
+            "zi/controllers",
+            "zi/models",
+            "zi/support/facade"
+        ]
+    }
+}
